@@ -1,9 +1,41 @@
+
+
 header {
-	padding: 3px 10px;
+  padding: 3px 10px;
 	margin-bottom: 5px;
 	background: -webkit-linear-gradient(left, #5b7989, #5b7989); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(left, #5b7989, #5b7989); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(left, #5b7989, #5b7989); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to left, #5b7989, #5b7989); /* Standard syntax */
 	border-radius: 10px;
+  color:white;
+
+}
+
+body{
+background-color: black;
+font-family: 'Dancing Script', cursive;
+}
+
+#contenido {
+	display: flex;
+	flex-direction: column;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+#imagen1{
+  padding: 3px 10px;
+	margin-bottom: 5px;
+  border-radius: 10px;
+  background: #82c3a6;
+  text-align: center;
 }

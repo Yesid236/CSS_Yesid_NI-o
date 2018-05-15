@@ -1,5 +1,4 @@
 
-
 header {
   padding: 3px 10px;
 	margin-bottom: 5px;
@@ -17,16 +16,14 @@ background-color: black;
 font-family: 'Dancing Script', cursive;
 }
 
-#contenido {
-	display: flex;
-	flex-direction: column;
-}
-.contenedor {
-	display: flex;
-	flex-direction: row;
+
+header div{
+
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.contenedor > div {
+.contenedor >div {
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
@@ -38,4 +35,29 @@ font-family: 'Dancing Script', cursive;
   border-radius: 10px;
   background: #82c3a6;
   text-align: center;
+}
+
+.Seccion{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  border-radius: 1px;
+  background:  #d5c75f;
+  text-decoration: underline;
+
+}
+
+section div{
+  margin:auto;
+}
+
+.footerContenedor{
+  border-radius: 10px;
+  background:  #C6d5c5;
+  display: flex;
+	flex-flow: row wrap;
+
+}
+footer div{
+margin:auto;
 }

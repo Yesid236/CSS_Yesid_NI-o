@@ -8,6 +8,11 @@ header {
 	background: linear-gradient(to left, #5b7989, #5b7989); /* Standard syntax */
 	border-radius: 10px;
   color:white;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-around;
+
 
 }
 
@@ -17,11 +22,6 @@ font-family: 'Dancing Script', cursive;
 }
 
 
-header div{
-
-  display: flex;
-  flex-flow: row wrap;
-}
 
 .contenedor >div {
 	text-align: center;
@@ -35,29 +35,99 @@ header div{
   border-radius: 10px;
   background: #82c3a6;
   text-align: center;
+
 }
 
-.Seccion{
-  display: flex;
+
+  .Seccion{
   flex-flow: row wrap;
   text-align: center;
   border-radius: 1px;
   background:  #d5c75f;
   text-decoration: underline;
+  display: flex;
+}
 
+img{
+	border: 2px solid #82c3a6;
+}
+
+
+.rotate:hover
+{
+-webkit-transform:rotateZ (10deg);
+-ms-transform:rotateZ (10deg);
+transform:rotateZ (10deg);
 }
 
 section div{
   margin:auto;
 }
 
-.footerContenedor{
-  border-radius: 10px;
-  background:  #C6d5c5;
-  display: flex;
-	flex-flow: row wrap;
 
+#imagen11 img{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);}
+
+  #imagen2 img{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+  }
+
+  #imagen4 img{
+  	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  	filter: grayscale(100%);
+  }
+  #imagen6 img{
+  	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  	filter: grayscale(100%);
+  }
+  #imagen3 img{
+    -webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+  	filter: sepia(90%);
 }
-footer div{
-margin:auto;
+
+footer
+{
+  width: 100%;
+  height: 250px;
+  clear: both;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  order: 5;
+}
+
+#contacto
+{
+  width: 20%;
+  float: left;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#terminos
+{
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+
+#redes
+{
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+
+#redes img
+{
+  height: 15px;
+  border-radius: 10px;
+}
+
+#derechos
+{
+  width: 25%;
+  float: right;
+  text-align: left;
 }

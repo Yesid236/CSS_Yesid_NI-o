@@ -144,5 +144,15 @@ footer{
 height: 480px;
 display: flex;
 flex-direction: column;
-}
+  }
+header{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  }
+  .seccion{
+    display: flex;
+    flex-direction:column;
+    }
+
 }
